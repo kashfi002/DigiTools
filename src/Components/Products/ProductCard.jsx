@@ -4,6 +4,8 @@ const ProductCard = ({product,cart,setCart}) => {
     const[bought,setBought]=useState(false);
     const handleBuy=()=>{
         setBought(!bought);
+        setCart([...cart,product]);
+        
     }
     let badgeType="badge-warning";
     if(product.tag==='New'){

@@ -17,7 +17,7 @@ const Tabs = ({modelPromise}) => {
    type="radio" name="my_tabs_1" className="tab rounded-full w-40"aria-label="Products"defaultChecked />
   <input 
   onClick={()=>setActiveTabs("cart")}
-  type="radio" name="my_tabs_1" className="tab rounded-full w-40" aria-label="Carts (0)" />
+  type="radio" name="my_tabs_1" className="tab rounded-full w-40" aria-label={`Cart (${cart.length})`} />
 </div>
 <Suspense>
     {
