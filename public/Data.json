@@ -12,7 +12,7 @@
       "ATS optimization",
       "Export to PDF"
     ],
-    "icon": "../src/assets/products/portfolio.png"
+    "icon": "/portfolio.png"
   },
   {
     "id": 2,
@@ -27,7 +27,7 @@
       "Team collaboration",
       "Real-time updates"
     ],
-    "icon": "../src/assets/products/writing_2327400 1.png"
+    "icon": "/writing_2327400 1.png"
   },
   {
     "id": 3,
@@ -42,7 +42,7 @@
       "Figma compatible",
       "Dark & light themes"
     ],
-    "icon": "../src/assets/products/design-tool.png"
+    "icon": "/design-tool.png"
   },
   {
     "id": 4,
@@ -57,7 +57,7 @@
       "Focus timer",
       "Daily reports"
     ],
-    "icon": "../src/assets/products/design-tool.png"
+    "icon": "/design-tool.png"
   },
   {
     "id": 5,
@@ -72,7 +72,7 @@
       "Payment tracking",
       "Tax summaries"
     ],
-    "icon": "../src/assets/products/design-tool.png"
+    "icon": "/design-tool.png"
   },
   {
     "id": 6,
@@ -87,7 +87,7 @@
       "Site audit",
       "Competitor analysis"
     ],
-    "icon": "../src/assets/products/social-media.png"
+    "icon": "/social-media.png"
   },
   {
     "id": 7,
@@ -102,7 +102,7 @@
       "Cloud sync",
       "Tag-based search"
     ],
-    "icon": "../src/assets/products/operation.png"
+    "icon": "/operation.png"
   },
   {
     "id": 8,
@@ -117,7 +117,7 @@
       "AI summaries",
       "Export to DOCX"
     ],
-    "icon": "../src/assets/products/writing_2327400 1.png"
+    "icon": "/writing_2327400 1.png"
   },
   {
     "id": 9,
@@ -132,7 +132,7 @@
       "Custom domains",
       "Responsive design"
     ],
-    "icon": "../src/assets/products/portfolio.png"
+    "icon": "/portfolio.png"
   },
   {
     "id": 10,
@@ -147,6 +147,6 @@
       "End-to-end encryption",
       "Multi-device support"
     ],
-    "icon": "../src/assets/products/design-tool.png"
+    "icon": "/design-tool.png"
   }
 ]
