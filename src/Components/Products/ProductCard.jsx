@@ -4,8 +4,12 @@ const ProductCard = ({product,cart,setCart}) => {
     const[bought,setBought]=useState(false);
     const handleBuy=()=>{
         setBought(!bought);
+        const isFound= cart.find(item=> item.id===product.id);
+        if(isFound){
+          return
+        }
         setCart([...cart,product]);
-        
+
     }
     let badgeType="badge-warning";
     if(product.tag==='New'){
