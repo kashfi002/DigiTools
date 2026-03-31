@@ -17,9 +17,9 @@ const Cart = ({ cart, setCart }) => {
       <h1 className="text-2xl font-bold mb-6 text-left">Your Cart</h1>
       
       {cart.length === 0 ? (
-      <div className='flex-col justify-center items-center'>
-       <img className='h-40 w-40 items-center' src={cartImg} alt="" />
-        <p className="font-bold text-2xl text-center py-10 text-gray-400">Cart is empty</p>
+      <div className=' flex flex-col justify-center items-center'>
+       <img className='h-40 w-40 items-center opacity-50' src={cartImg} alt="" />
+        <p className="font-bold text-3xl text-center py-10 text-gray-700">Cart is empty</p>
         </div>
       ) : (
         <>

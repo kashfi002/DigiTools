@@ -2,9 +2,8 @@ import React, { Suspense, useState } from 'react';
 import Products from '../Products/Products';
 import Cart from '../Cart/Cart';
 
-const Tabs = ({modelPromise}) => {
+const Tabs = ({modelPromise,cart,setCart}) => {
     const[activeTabs,setActiveTabs]=useState("products")
-    const[cart,setCart]=useState([]);
     return (
         <div className='text-center items-center space-y-5 mt-[80px]'>
             <h1 className='text-3xl font-bold'>Premium Digital Tools</h1>

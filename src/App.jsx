@@ -1,5 +1,5 @@
 
-import { Suspense } from 'react'
+import { Suspense, useState } from 'react'
 import './App.css'
 import Banner from './Components/Banner/Banner'
 import Navbar from './Components/Navbar/Navbar'
@@ -12,13 +12,16 @@ const getModels=async()=>{
 }
 const modelPromise=getModels();
 function App() {
+   const[cart,setCart]=useState([]);
  
   return (
     <>
-      <Navbar></Navbar>
+      <Navbar cart={cart}></Navbar>
       <Banner></Banner>
       <Rating></Rating>
-      <Suspense><Tabs modelPromise={modelPromise}></Tabs></Suspense>
+      <Suspense><Tabs
+      cart={cart} setCart={setCart}
+       modelPromise={modelPromise}></Tabs></Suspense>
     </>
   )
 }
