@@ -1,0 +1,152 @@
+[
+  {
+    "id": 1,
+    "name": "ResumeCraft Pro",
+    "description": "AI-powered resume builder for professional growth.",
+    "price": 19,
+    "period": "one-time",
+    "tag": "Best Seller",
+    "tagType": "best-seller",
+    "features": [
+      "100+ templates",
+      "ATS optimization",
+      "Export to PDF"
+    ],
+    "icon": "../src/assets/products/portfolio.png"
+  },
+  {
+    "id": 2,
+    "name": "TaskFlow",
+    "description": "Smart task and project management tool for teams.",
+    "price": 9,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": [
+      "Kanban boards",
+      "Team collaboration",
+      "Real-time updates"
+    ],
+    "icon": "../src/assets/products/writing_2327400 1.png"
+  },
+  {
+    "id": 3,
+    "name": "DesignKit UI",
+    "description": "An simple UI kit for modern web and mobile apps.",
+    "price": 49,
+    "period": "one-time",
+    "tag": "New",
+    "tagType": "new",
+    "features": [
+      "500+ components",
+      "Figma compatible",
+      "Dark & light themes"
+    ],
+    "icon": "../src/assets/products/design-tool.png"
+  },
+  {
+    "id": 4,
+    "name": "FocusZen",
+    "description": "Productivity tool to block distractions and manage time.",
+    "price": 6,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": [
+      "Website blocker",
+      "Focus timer",
+      "Daily reports"
+    ],
+    "icon": "../src/assets/products/design-tool.png"
+  },
+  {
+    "id": 5,
+    "name": "InvoiceMate",
+    "description": "Simple billing and invoice generator software for freelancers.",
+    "price": 79,
+    "period": "yearly",
+    "tag": "Best Seller",
+    "tagType": "best-seller",
+    "features": [
+      "Custom invoices",
+      "Payment tracking",
+      "Tax summaries"
+    ],
+    "icon": "../src/assets/products/writing_2327400 1.png"
+  },
+  {
+    "id": 6,
+    "name": "SEO Booster",
+    "description": "All-in-one SEO analysis and optimization tool.",
+    "price": 29,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": [
+      "Keyword research",
+      "Site audit",
+      "Competitor analysis"
+    ],
+    "icon": "../src/assets/products/social-media.png"
+  },
+  {
+    "id": 7,
+    "name": "CodeSnippet Vault",
+    "description": "Organize and reuse your code snippet efficiently.",
+    "price": 25,
+    "period": "one-time",
+    "tag": "New",
+    "tagType": "new",
+    "features": [
+      "Syntax highlighting",
+      "Cloud sync",
+      "Tag-based search"
+    ],
+    "icon": "../src/assets/products/operation.png"
+  },
+  {
+    "id": 8,
+    "name": "MeetingNotes AI",
+    "description": "Automatically generate meeting summaries using AI.",
+    "price": 12,
+    "period": "monthly",
+    "tag": "New",
+    "tagType": "new",
+    "features": [
+      "Auto transcription",
+      "AI summaries",
+      "Export to DOCX"
+    ],
+    "icon": "../src/assets/products/writing_2327400 1.png"
+  },
+  {
+    "id": 9,
+    "name": "PortfolioBuilder",
+    "description": "Create stunning personal portfolios without coding.",
+    "price": 39,
+    "period": "one-time",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": [
+      "Drag & drop editor",
+      "Custom domains",
+      "Responsive design"
+    ],
+    "icon": "../src/assets/products/portfolio.png"
+  },
+  {
+    "id": 10,
+    "name": "CloudBackup Plus",
+    "description": "Secure cloud backup solution for personal data.",
+    "price": 99,
+    "period": "yearly",
+    "tag": "Best Seller",
+    "tagType": "best-seller",
+    "features": [
+      "Automatic backups",
+      "End-to-end encryption",
+      "Multi-device support"
+    ],
+    "icon": "../src/assets/products/design-tool.png"
+  }
+]
