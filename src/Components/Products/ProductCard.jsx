@@ -1,6 +1,10 @@
-import React from 'react';
+import React, { useState } from 'react';
 
-const ProductCard = ({product}) => {
+const ProductCard = ({product,cart,setCart}) => {
+    const[bought,setBought]=useState(false);
+    const handleBuy=()=>{
+        setBought(!bought);
+    }
     let badgeType="badge-warning";
     if(product.tag==='New'){
         badgeType="badge-success";
@@ -44,7 +48,10 @@ const ProductCard = ({product}) => {
   ))}
 </ul>
     <div className="mt-6">
-      <button className="btn bg-linear-to-r from-violet-600 to-purple-600 rounded-full w-full text-white">Buy now</button>
+      <button 
+      onClick={handleBuy}
+      className="btn bg-linear-to-r from-violet-600 to-purple-600 rounded-full w-full text-white">
+        {bought?"Added to Cart":"Buy now"}</button>
     </div>
   </div>
 </div>
