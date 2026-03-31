@@ -6,6 +6,7 @@ import Navbar from './Components/Navbar/Navbar'
 import Rating from './Components/Rating/Rating'
 import Tabs from './Components/Tabs/Tabs'
 import GetStarted from './Components/getStarted/getStarted'
+import Pricing from './Components/Pricing/Pricing'
 
 const getModels=async()=>{
   const res=await fetch("/Data.json");
@@ -24,6 +25,7 @@ function App() {
       cart={cart} setCart={setCart}
        modelPromise={modelPromise}></Tabs></Suspense>
        <GetStarted></GetStarted>
+       <Pricing></Pricing>
     </>
   )
 }
