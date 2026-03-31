@@ -7,6 +7,9 @@ import Rating from './Components/Rating/Rating'
 import Tabs from './Components/Tabs/Tabs'
 import GetStarted from './Components/getStarted/getStarted'
 import Pricing from './Components/Pricing/Pricing'
+import Workflow from './Components/Workflow/Workflow'
+import Footer from './Components/Footer/Footer'
+
 
 const getModels=async()=>{
   const res=await fetch("/Data.json");
@@ -26,6 +29,8 @@ function App() {
        modelPromise={modelPromise}></Tabs></Suspense>
        <GetStarted></GetStarted>
        <Pricing></Pricing>
+       <Workflow></Workflow>
+       <Footer></Footer>
     </>
   )
 }
