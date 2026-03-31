@@ -13,10 +13,10 @@ const Tabs = ({modelPromise,cart,setCart}) => {
 <div className="tabs tabs-box justify-center">
   <input
   onClick={()=>setActiveTabs("products")}
-   type="radio" name="my_tabs_1" className="tab rounded-full w-40"aria-label="Products"defaultChecked />
+   type="radio" name="my_tabs_1" className="tab rounded-full checked:!bg-violet-600 checked:!text-white w-40"aria-label="Products"defaultChecked />
   <input 
   onClick={()=>setActiveTabs("cart")}
-  type="radio" name="my_tabs_1" className="tab rounded-full w-40" aria-label={`Cart (${cart.length})`} />
+  type="radio" name="my_tabs_1" className="tab rounded-full checked:!bg-violet-600 checked:!text-white w-40" aria-label={`Cart (${cart.length})`} />
 </div>
 <Suspense>
     {

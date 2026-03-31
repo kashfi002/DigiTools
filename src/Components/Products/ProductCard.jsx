@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { ToastContainer, toast } from 'react-toastify';
 
 const ProductCard = ({product,cart,setCart}) => {
     const[bought,setBought]=useState(false);
@@ -6,9 +7,11 @@ const ProductCard = ({product,cart,setCart}) => {
         setBought(!bought);
         const isFound= cart.find(item=> item.id===product.id);
         if(isFound){
+            toast.error("Item already added to the cart");
           return
         }
         setCart([...cart,product]);
+        toast.success("Product added to the cart");
 
     }
     let badgeType="badge-warning";
