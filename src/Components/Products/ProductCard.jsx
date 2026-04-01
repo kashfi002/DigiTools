@@ -4,7 +4,7 @@ import { ToastContainer, toast } from 'react-toastify';
 const ProductCard = ({product,cart,setCart}) => {
     const[bought,setBought]=useState(false);
     const handleBuy=()=>{
-        setBought(!bought);
+        setBought(true);
         const isFound= cart.find(item=> item.id===product.id);
         if(isFound){
             toast.error("Item already added to the cart");
@@ -26,7 +26,7 @@ const ProductCard = ({product,cart,setCart}) => {
             <div className="card w-96 bg-base-100 shadow-md rounded-md">
   <div className="card-body ">
     <div className='flex ml-auto'>
-         <span className={`badge badge-soft ${badgeType}`} mr-auto>{product.tag}</span>
+         <span className={`badge badge-soft ${badgeType} mr-auto`}>{product.tag}</span>
     </div>
     <div className="item-start text-left">
         <img src={product.icon} alt="" />
@@ -58,9 +58,13 @@ const ProductCard = ({product,cart,setCart}) => {
 </ul>
     <div className="mt-6">
       <button 
-      onClick={handleBuy}
-      className="btn bg-linear-to-r from-violet-600 to-purple-600 rounded-full w-full text-white">
-        {bought?"Added to Cart":"Buy now"}</button>
+    onClick={handleBuy}
+    className={`btn rounded-full w-full text-white transition-all duration-300 ${
+      bought? "bg-green-600 border-none": "bg-linear-to-r from-violet-600 to-purple-600 border-none"
+    }`}
+  >
+    {bought ? "Added to Cart" : "Buy now"}
+  </button>
     </div>
   </div>
 </div>

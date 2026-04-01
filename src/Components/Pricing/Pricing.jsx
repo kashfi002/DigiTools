@@ -38,8 +38,8 @@ const Pricing = () => {
 </div>
 
 <div className="card w-96 bg-base-100 shadow-md rounded-2xl">
-  <div className="card-body bg-linear-to-r from-violet-600 to-purple-600 rounded-2xl">
-    <span className="badge badge-xs badge-warning">Most Popular</span>
+  <div className="card-body relative bg-linear-to-r from-violet-600 to-purple-600 rounded-2xl">
+    <span className="badge badge-xs badge-warning absolute -top-2 left-1/2 -translate-x-1/2 text-bold">Most Popular</span>
     <div>
       <h2 className="text-3xl font-bold text-white">Pro</h2>
       <p className='text-white'>Best for professionals</p>
