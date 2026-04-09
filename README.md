@@ -1,10 +1,6 @@
-Name of your Project
-=>Name of my Project is DigiTools
-A little Description
-=>It's a digital platform where the user can buy multiple AI/productivity/career related digital tools at once without switching different websites to buy different tools
-Technology that you use
-=> I used HTML,Tailwind CSS, DaisyUI and React
-3 Features about your project.
-1. user can buy multiple products
-2.It is responsive for mobile devices as well
-3. Single payment method for all the items in the cart
+The name of the project is Digitools.
+This website is mainly used to purchase digital products. Digital products can be added to cart while purchaching and upon checking out with the products, one can easily just proceed with just one click. removing and adding products to the cart is easy as clicking one button. Products can be added in the products section any time of the purchase and before checking out, and upon checking out the cart is emptied automatically.
+
+HTML, DaisyUI, reactjs, react toastify were used to make the project.
+This project is hosted on netlify.
+Livelink: https://my-digitools.netlify.app/
